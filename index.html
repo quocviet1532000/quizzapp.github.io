@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+
+</head>
+<body>
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>
+
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="button">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="question_box">
+        <header>
+            <div class="question_title">Awesome Application Quiz</div>
+            <div class="question_time">
+                <div class="question_time-text">Time Left : </div>
+                <div class="question_time-second">15s</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+
+        <section>
+            <div class="question_text">
+                <!-- <span>Nguyen Quoc Viet 15/03/2000</span> -->
+            </div>
+            <div class="question_list">
+                <!-- <div class="option">
+                    <span>Dep trai khoai to 1</span>
+                    <div class="icon tick">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <span>Dep trai khoai to 2</span>
+                    <div class="icon cross">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <span>Dep trai khoai to 3</span>
+                </div>
+
+                <div class="option">
+                    <span>Dep trai khoai to 4</span>
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="question_total">
+                <span><p>2</p>of<p>5</p>Questions</span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="result_icon">
+            <i class="fas fa-crown"></i>
+        </div>
+
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- <span>and sorry, You got only<p>2</p> out of <p>5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="quit">Quit Quiz</button>
+            <!-- <button class="restart">Replay Quiz</button> -->
+        </div>
+    </div>
+    <script src="question.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
